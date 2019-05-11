@@ -37,6 +37,13 @@ export default new Router({
       component: function (resolve) {
         require(['../views/TileLayer.vue'], resolve)
       }
+    },
+    // 设置小心点及覆盖物
+    {
+      path: '/setCenter',
+      component: function (resolve) {
+        require(['../views/setCenter.vue'], resolve)
+      }
     }
   ]
 })

@@ -25,6 +25,7 @@ export default {
         zoom: 10,
         lang: 'ch-en'
       })
+      map.setMapStyle('amap://styles/blue')
       AMap.plugin(['AMap.ToolBar', 'AMap.Scale'], function () {
         map.addControl(new AMap.ToolBar())
         map.addControl(new AMap.Scale())
