@@ -44,6 +44,27 @@ export default new Router({
       component: function (resolve) {
         require(['../views/setCenter.vue'], resolve)
       }
+    },
+    // 编辑矢量
+    {
+      path: '/MouseTool',
+      component: function (resolve) {
+        require(['../views/MouseTool.vue'], resolve)
+      }
+    },
+    // 3D
+    {
+      path: '/3D',
+      component: function (resolve) {
+        require(['../views/3D.vue'], resolve)
+      }
+    },
+    // 3D
+    {
+      path: '/DistrictLayer',
+      component: function (resolve) {
+        require(['../views/DistrictLayer.vue'], resolve)
+      }
     }
   ]
 })

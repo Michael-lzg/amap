@@ -18,6 +18,7 @@ export default {
       let map = new AMap.Map('container', {
         center: [116.397428, 39.90923],
         viewMode: '3D', // 使用3D视图
+        pitch: 75,
         resizeEnable: true,
         zoom: 16,
         lang: 'ch-en'
